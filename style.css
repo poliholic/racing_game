@@ -23,19 +23,19 @@ h1 {
 }
 .scoreboard{
   top: 300px;
-  left: 1050px;
+  left: 50px;
   height: 250px;
   width: 300px;
   text-align: center;
 }
-.topSize{
+.topsize{
   top: 205px;
   position: fixed;
   left: 0px;
   height: 90px;
   width: 90px;
 }
-.bottomSize{
+.bottomsize{
   top: 305px;
   position: fixed;
   left: 0px;
@@ -56,41 +56,46 @@ h1 {
 #instructions {
   font-size: 200%;
 }
-.showWinner{
+.showwinner{
   position: fixed;
   top: 500px;
   left: 480px;
   font-size: 50px;
 }
-.topScore{
+.p1score{
   left: 30px;
-  position: relative;
+  position: absolute;
 }
-.bottomScore{
+
+.topscore{
+  left: 30px;
+  position: fixed;
+}
+.bottomscore{
   left: 180px;
   position: relative;
 }
-.startingTop{
+.startingtop{
   content:url(mich.jpg);
 }
-.startingBot {
+.startingbot {
   content: url(na.jpg);
 }
-.losingTop{
+.losingtop{
+  content:url(crygirl.jpg);
+}
+.losingbot{
+  content:url(cryboy.jpg);
+}
+.winningtop{
   content:url(#);
 }
-.losingBot{
-  content:url(#);
-}
-.winningTop{
-  content:url(#);
-}
-.winningBot{
+.winningbot{
   content:url(#);
 }
 button{
   position: fixed;
   color:white;
   top: 530px;
-  left: 86%;
+  left: 150px;
 }
