@@ -1,0 +1,96 @@
+
+body{
+  background-color: black;
+}
+
+h1 {
+  font-size: 500%;
+  color: white;
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;
+  position: relative;
+}
+
+.track{
+  top: 200px;
+  height: 200px;
+  width: 1500px;
+  background-image: url("road.jpg");
+  position: fixed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.scoreboard{
+  top: 300px;
+  left: 1050px;
+  height: 250px;
+  width: 300px;
+  text-align: center;
+}
+.topSize{
+  top: 205px;
+  position: fixed;
+  left: 0px;
+  height: 90px;
+  width: 90px;
+}
+.bottomSize{
+  top: 305px;
+  position: fixed;
+  left: 0px;
+  height: 90px;
+  width: 90px;
+}
+.key{
+  width:80px;
+  height: 80px;
+}
+.instructions{
+  color: white;
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;
+  position: relative;
+  font-size: 150%;
+}
+#instructions {
+  font-size: 200%;
+}
+.showWinner{
+  position: fixed;
+  top: 500px;
+  left: 480px;
+  font-size: 50px;
+}
+.topScore{
+  left: 30px;
+  position: relative;
+}
+.bottomScore{
+  left: 180px;
+  position: relative;
+}
+.startingTop{
+  content:url(mich.jpg);
+}
+.startingBot {
+  content: url(na.jpg);
+}
+.losingTop{
+  content:url(#);
+}
+.losingBot{
+  content:url(#);
+}
+.winningTop{
+  content:url(#);
+}
+.winningBot{
+  content:url(#);
+}
+button{
+  position: fixed;
+  color:white;
+  top: 530px;
+  left: 86%;
+}
